@@ -1,0 +1,101 @@
+.container{
+
+    background-color: var( --color-dark--0);
+    width: 100%;
+    height:calc(80rem );
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.innercontainer{
+    margin: 4rem auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-grow: 1; */
+}
+.shipdetails{
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+    justify-content:center;
+    padding-bottom: 2rem ;
+   
+}
+.box{
+    border-radius: 1.5rem;
+    background-color: var(--color-dark--2);
+    width: 35%;
+    /* border: 1px solid var(--color-brand--2); */
+    height: 33rem;
+}
+.image {
+    /* max-width: 45rem; */
+    width: 100%;
+    height: 100%;
+    border-radius:1.5rem;
+    /* border: 2px solid green; */
+  }
+  .image img{
+    border:1px solid var(--color-brand--2);
+            width: 100%;
+            height: 100%;
+            border-radius:1.5rem;
+            
+  }
+
+.bar {
+    border-radius: 1.5rem 1.5rem 0rem 0rem;
+    text-align: center;
+    margin-bottom: 0.625rem;
+    text-transform: uppercase;
+    padding: 2px 5px;
+    line-height: 1;
+    background-color: var(--color-brand--1);
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--color-dark--2);
+    font-weight: 700;
+}
+.innercontainer :nth-child(0){
+
+    width: 100%;
+}
+.butt{
+    font-family: inherit;
+    font-weight: 600;
+    display: flex;
+    align-items:center;
+    gap: 0.7rem;
+  margin:1rem auto 0rem auto;
+    padding:1rem 2rem;
+    color: var(--color-brand--2);
+    background-color: var(--color-dark--2);
+    text-align: center;
+    border:1px solid var(--color-brand--2);
+    border-radius: 2rem;
+    transition: 0.32s ease;
+}
+.butt:hover{
+    transition: 0.32s ease;
+    background-color: var(--color-brand--2);
+    color: black;
+}
+/* #254881 */
+@media screen and (min-width:1600px){
+
+    .container{
+        height: 100%;
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+    .box{
+        height: 40rem;
+    }
+}
